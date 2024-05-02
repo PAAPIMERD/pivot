@@ -37,7 +37,7 @@ def fib_pivot_gen(prev_high,prev_low,prev_close):
   S2 = PP - 0.618 * (prev_high - prev_low)
   R3 = PP + (prev_high - prev_low)
   S3 = PP - (prev_high - prev_low)
-  return [[R3,R2],[R2,PP],[PP,S1],[S1,S2],[S2,S3]]
+  return PP,R1,S1,R2,S2,R3,S3
 
 
 fib_pivot_gen(286.35,281.45,282.85)
