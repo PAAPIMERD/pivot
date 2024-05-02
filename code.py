@@ -4,7 +4,7 @@ from kite_trade import *
 from datetime import datetime
 import neo_api_client
 from neo_api_client import NeoAPI
-enctoken = "5BBCmULwwFHPAU8/2/xdN+VknZIeiOsRBzNUrzDdINetraZInF7LrdteAemZ1FK7q6bNRokCcx51EgH5MJI282vjvld7OA/IqFPTxH23xe02O6KSoDHSDw=="
+enctoken = "2g5rlyFLveEkZwoo3/m7I9jI3XsUSfcV3uIv22/9uZcDtNfc6laFAaGFo8yKOJFayPpassobrp9oKAotEHM2K49D70hUbikGP8GzFic/voD0N6tWHriOIA=="
 kite = KiteApp(enctoken=enctoken)
 cons_key = "vvdHaGEFcURbb36F0DVJfDkW0CQa"
 cons_sec = "DgTu4TNBTW6yLXb7nF08knjY_HUa"
