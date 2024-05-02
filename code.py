@@ -69,6 +69,7 @@ def price_fetcher(symbol):
 
 
 def range_finder(curr_price):
+  curr_price = float(curr_price)
   global PP,R1,S1,R2,S2,R3,S3
   
   if curr_price<R3 and curr_price>R2:
