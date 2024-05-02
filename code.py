@@ -107,6 +107,7 @@ tracker = [0]
 initial_balance = ""
 
 def start(symbol):
+  curr_price = price_fetcher(symbol)
   global tracker,direction
   curr_piv = range_finder(curr_price)
   tracker.append(curr_piv)
