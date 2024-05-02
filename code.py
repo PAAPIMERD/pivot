@@ -116,7 +116,7 @@ def start(symbol):
   while True:
     curr_price = price_fetcher(symbol)
     now_piv = range_finder(curr_price)
-    tracker.appned(now_piv)
+    tracker.append(now_piv)
     if tracker[-1] > tracker[-2]:
       stage = tracker[-1]
       target = next_green_pivot(curr_price)
