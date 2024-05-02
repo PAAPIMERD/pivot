@@ -4,7 +4,7 @@ from kite_trade import *
 from datetime import datetime
 import neo_api_client
 from neo_api_client import NeoAPI
-enctoken = "qw0SUjOuTkVBe0NvL1jiJyXvg6GnSbxv+KQRljzcyzC1ouEuo4dNqXvyCxIwVNnOZ6gPg5yAjkcxQncKBWs1BjhtXDSVVuFLr9FaaXRKZuEhilnn+6wkMg=="
+enctoken = "5BBCmULwwFHPAU8/2/xdN+VknZIeiOsRBzNUrzDdINetraZInF7LrdteAemZ1FK7q6bNRokCcx51EgH5MJI282vjvld7OA/IqFPTxH23xe02O6KSoDHSDw=="
 kite = KiteApp(enctoken=enctoken)
 cons_key = "vvdHaGEFcURbb36F0DVJfDkW0CQa"
 cons_sec = "DgTu4TNBTW6yLXb7nF08knjY_HUa"
@@ -19,12 +19,12 @@ client.login(mobilenumber=mobile, password=paswd)
 client.session_2fa(OTP=mpin)
 
 def buy():
-  client.place_order(exchange_segment="nse_cm", product="MIS", price="", order_type="MKT", quantity="1", validity="DAY", trading_symbol="WIPRO-EQ",
+  client.place_order(exchange_segment="nse_cm", product="MIS", price="", order_type="MKT", quantity="1", validity="DAY", trading_symbol="ONGC-EQ",
                        transaction_type="B", amo="NO", disclosed_quantity="0", market_protection="0", pf="N",
                        trigger_price="0", tag=None)
   
 def sell():
-  client.place_order(exchange_segment="nse_cm", product="MIS", price="", order_type="MKT", quantity="1", validity="DAY", trading_symbol="WIPRO-EQ",
+  client.place_order(exchange_segment="nse_cm", product="MIS", price="", order_type="MKT", quantity="1", validity="DAY", trading_symbol="ONGC-EQ",
                        transaction_type="S", amo="NO", disclosed_quantity="0", market_protection="0", pf="N",
                        trigger_price="0", tag=None)
   
@@ -166,5 +166,5 @@ def check_time():
         time.sleep(1)  # Check every minute
 
 
-check_time()
+start("ONGC")
     
