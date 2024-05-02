@@ -40,7 +40,7 @@ def fib_pivot_gen(prev_high,prev_low,prev_close):
   return [[R3,R2],[R2,PP],[PP,S1],[S1,S2],[S2,S3]]
 
 
-fib_pivot_gen(466.75,461.50,462.40)
+fib_pivot_gen(286.35,281.45,282.85)
 
 
 
