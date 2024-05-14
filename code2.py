@@ -56,7 +56,9 @@ def price_fetcher(symbol):
 
 while True:
   buy()
-  print("buy order executed at ONGC-EQ" at the priceof ",price_fetcher("ONGC"))
+  print("buy order executed at ONGC-EQ at the price of ", price_fetcher("ONGC"))
+
   time.sleep(30)
   sell()
-  print("buy order executed at ONGC-EQ" at the priceof ",price_fetcher("ONGC"))
+  print("sell order executed at ONGC-EQ at the price of ", price_fetcher("ONGC"))
+
