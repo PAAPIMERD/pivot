@@ -3,7 +3,7 @@ import time
 from kite_trade import *
 from datetime import datetime
 
-enctoken = "XQcsvyF6AFkXr2ZPw7HHVhg3wsx0YEmGXoSsHkNatzp1pe8GKAARAsjcqVgU1rHWELp4uRWpPeXyPeV+oiiCxxyTQQwuEITLpHQ/GPra4rpEv+E2tQ8CFQ=="
+enctoken = "MlR2wiQ3wfSLIEN/a5gvYBlmZiK1K/yfPMGO1ccHtEyon9VnQ9sZqDSAIj0HUhhPEC4DgNFo2cMVUmp5c+8/Mekyc/c0VukWYd3WGzrgUSnKxRscJq5krA=="
 kite = KiteApp(enctoken=enctoken)
 
 
