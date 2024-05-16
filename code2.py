@@ -3,7 +3,7 @@ import time
 from kite_trade import *
 from datetime import datetime
 
-enctoken = "MlR2wiQ3wfSLIEN/a5gvYBlmZiK1K/yfPMGO1ccHtEyon9VnQ9sZqDSAIj0HUhhPEC4DgNFo2cMVUmp5c+8/Mekyc/c0VukWYd3WGzrgUSnKxRscJq5krA=="
+enctoken = "ZWHsDU+s/3hwSS1INwrfJ5qaLaCPEe6/O3HbHZTJ3/W2AQVif9F1WDfFh9qJDVdxuhEMqbjh8VCN0WpjihsNWc+YWfhiMoivdL95E2GlLu59Znm0b0QuyQ=="
 kite = KiteApp(enctoken=enctoken)
 
 
@@ -73,7 +73,7 @@ while True:
   buy()
   print("buy order executed at ONGC-EQ at the price of ", price_fetcher("ONGC"))
 
-  time.sleep(30)
+  time.sleep(90)
   sell()
   print("sell order executed at ONGC-EQ at the price of ", price_fetcher("ONGC"))
 
